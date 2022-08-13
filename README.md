@@ -9,7 +9,7 @@
 To deploy on heroku you need docker and heroku cli.
 
 ```bash
-  docker build -t movie-api . 
+  docker build -t [image name] . 
   docker-compose build
   heroku login
   heroku container:login
